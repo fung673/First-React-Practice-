@@ -1,38 +1,128 @@
-.App {
-  text-align: center;
+@import url('https: //fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+* {
+ padding: 0;
+ margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+ background-color: black;
+ display: flex;
+ justify-content: center;
+ font-family: 'Inter'
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#root {
+ width: 317px;
+ height: 780px;
+ background-color: #23252C;
+ text-align: center;
+ border-radius: 10px 10px 10px 10px;
+ justify-content: center;
+ overflow: hidden
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.bigname {
+ font-family: 'Inter';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 25px;
+ line-height: 30px;
+ text-align: center;
+ color: white;
+ padding: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+
+nav>.title {
+ font-size: 12.8px;
+ color: #F3BF99;
+ font-family: 'Inter';
+ margin-top: 0px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+nav>.link {
+ font-weight: 400;
+ font-size: 10.24px;
+ line-height: 150%;
+ color: white;
+ padding: 12px;
+}
+
+nav>.mailbox {
+ width: 247px;
+ height: 34px;
+ background-color: white;
+ margin: auto;
+ border-radius: 6px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 10px;
+ color: #374151;
+ font-family: 'Inter';
+}
+
+.layout {
+ width: 247px;
+ height: 201px;
+ margin: auto;
+
+}
+
+.about {
+ margin-top: 20px;
+ text-align: left;
+ font-size: 16px;
+ font-weight: 700;
+ color: #F5F5F5;
+}
+
+.des {
+ text-align: left;
+ color: #F5F5F5;
+ font-size: 10.24px;
+ margin: 0px;
+ font-weight: 400;
+}
+
+.int {
+ margin-top: 20px;
+ text-align: left;
+ font-size: 16px;
+ font-weight: 700;
+ color: #F5F5F5;
+}
+
+.inte {
+ text-align: left;
+ color: #F5F5F5;
+ font-size: 10.24px;
+ margin: 0px;
+ font-weight: 400;
+}
+
+.footer {
+ background-color: #161619;
+ margin: auto;
+}
+
+.footer>ul {
+ display: flex;
+}
+
+.footer>ul>li {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+ width: 70%;
+ padding: 10px;
+
+}
+
+.smallicon {
+ width: 30px;
+ height: 30px;
+ border-radius: 5px;
 }
