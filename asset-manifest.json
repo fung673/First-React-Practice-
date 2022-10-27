@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/First-React-Practice-/static/css/main.5dd83291.css",
+    "main.js": "/First-React-Practice-/static/js/main.09011ea0.js",
+    "static/media/dog.jpg": "/First-React-Practice-/static/media/dog.68d8fe26c47907e31f5e.jpg",
+    "index.html": "/First-React-Practice-/index.html",
+    "main.5dd83291.css.map": "/First-React-Practice-/static/css/main.5dd83291.css.map",
+    "main.09011ea0.js.map": "/First-React-Practice-/static/js/main.09011ea0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5dd83291.css",
+    "static/js/main.09011ea0.js"
+  ]
+}
